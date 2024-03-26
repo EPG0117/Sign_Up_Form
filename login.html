@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/app.js"></script>
+        <title>Sign Up</title>
+    </head>
+    <body>
+        <main class="contenedor columnas">
+            <div class="imagen">
+                <img src="./img/16640.jpg" alt="Image login">
+            </div>
+            <div class="formulario">
+                <div class="contenedor-texto">
+                    <p class="texto-p">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Ad reprehenderit perferendis laudantium soluta
+                        consectetur, nihil optio? Laboriosam nulla optio
+                        perferendis similique tempore quia animi nisi
+                        necessitatibus temporibus, facilis nobis mollitia.
+                    </p>
+                </div>
+                <div class="contenedor-formulario">
+                    <h1 class="titulo-formulario">¡Bienvenido al
+                        Formulario!</h1>
+
+                    <form class="form">
+                        <div class="campo">
+                            <label class="campo__label"
+                                for="nombre">Nombre</label>
+                            <input
+                                class="campo__field"
+                                type="text"
+                                placeholder="Nombre"
+                                id="nombre"
+                                pattern="[A-Z][a-z]*([_\s\-][A-Za-z][a-z]*)?"
+                                title="Must be capitalized and may contain 1 space, underscore or dash"
+                                required>
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="nombre">Apellido
+                                paterno</label>
+                            <input
+                                class="campo__field"
+                                type="text"
+                                placeholder="Apellido Paterno"
+                                id="apellido_paterno"
+                                required>
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="nombre">Apellido
+                                materno</label>
+                            <input
+                                class="campo__field"
+                                type="text"
+                                placeholder="Apellido Materno"
+                                id="apellido_materno"
+                                required>
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label"
+                                for="nombre">E-mail</label>
+                            <input
+                                class="campo__field"
+                                type="email"
+                                placeholder="E-mail"
+                                id="email"
+                                required>
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label"
+                                for="nombre">Telefono</label>
+                            <input
+                                class="campo__field"
+                                type="tel"
+                                placeholder="Telefono"
+                                id="telefono"
+                                required>
+                        </div>
+
+                        <div class="campo">
+                            <label class="campo__label"
+                                for="nombre">Contraseña</label>
+                            <input
+                                class="campo__field"
+                                type="password"
+                                name="contasena"
+                                placeholder="Contraseña"
+                                id="contasena"
+                                required>
+                        </div>
+
+                        <div class="campo">
+                            <label class="campo__label" for="nombre">Confirmar
+                                Contraseña</label>
+                            <input
+                                class="campo__field"
+                                type="password"
+                                name="confirmar_contasena"
+                                placeholder="Confirma tu Contraseña"
+                                id="confirmar-contasena">
+                        </div>
+                        
+
+                        <div class="campo">
+                            <input type="submit" value="Enviar" class="boton">
+                        </div>
+                    </form>
+
+                    <p class="login-prompt">Already have an account? <a href="#"
+                            class="login">Log in</a></p>
+                </div>
+            </div>
+        </main>
+    </body>
+
+</html>
